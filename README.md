@@ -1,6 +1,6 @@
-#start you redis server frist
- ./redis-server
-#test use redis api
+#### start you redis server frist
+ redis-server
+#### test use redis api
 go run main.go
-# test publish/subscribe
+#### test publish/subscribe
 go run pubsub.go
